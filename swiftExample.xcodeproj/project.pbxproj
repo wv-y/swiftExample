@@ -16,6 +16,12 @@
 		5D055DA12CA6AC14001F0F7B /* swiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DA02CA6AC14001F0F7B /* swiftExampleTests.swift */; };
 		5D055DAB2CA6AC14001F0F7B /* swiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DAA2CA6AC14001F0F7B /* swiftExampleUITests.swift */; };
 		5D055DAD2CA6AC14001F0F7B /* swiftExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DAC2CA6AC14001F0F7B /* swiftExampleUITestsLaunchTests.swift */; };
+		5D055DBA2CA6ADC6001F0F7B /* ExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DB92CA6ADC6001F0F7B /* ExampleListViewController.swift */; };
+		5D055DBD2CA6B657001F0F7B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D055DBC2CA6B657001F0F7B /* SnapKit */; };
+		5D055DBF2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DBE2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift */; };
+		5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */; };
+		5D56BD352CBA74D600210D54 /* NetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD342CBA74D600210D54 /* NetIPAddress.m */; };
+		5D56BD372CBA75CA00210D54 /* IPAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,13 @@
 		5D055DA62CA6AC14001F0F7B /* swiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D055DAA2CA6AC14001F0F7B /* swiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftExampleUITests.swift; sourceTree = "<group>"; };
 		5D055DAC2CA6AC14001F0F7B /* swiftExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D055DB92CA6ADC6001F0F7B /* ExampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
+		5D055DBE2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTileTableViewCell.swift; sourceTree = "<group>"; };
+		5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDTestVC.swift; sourceTree = "<group>"; };
+		5D56BD322CBA74D500210D54 /* swiftExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D56BD332CBA74D600210D54 /* NetIPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetIPAddress.h; sourceTree = "<group>"; };
+		5D56BD342CBA74D600210D54 /* NetIPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetIPAddress.m; sourceTree = "<group>"; };
+		5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddressVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D055DBD2CA6B657001F0F7B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +115,18 @@
 			children = (
 				5D055D892CA6AC11001F0F7B /* AppDelegate.swift */,
 				5D055D8B2CA6AC11001F0F7B /* SceneDelegate.swift */,
+				5D055DB92CA6ADC6001F0F7B /* ExampleListViewController.swift */,
+				5D055DBE2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift */,
+				5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */,
+				5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */,
 				5D055D8D2CA6AC11001F0F7B /* ViewController.swift */,
+				5D56BD332CBA74D600210D54 /* NetIPAddress.h */,
+				5D56BD342CBA74D600210D54 /* NetIPAddress.m */,
 				5D055D8F2CA6AC11001F0F7B /* Main.storyboard */,
 				5D055D922CA6AC13001F0F7B /* Assets.xcassets */,
 				5D055D942CA6AC13001F0F7B /* LaunchScreen.storyboard */,
 				5D055D972CA6AC13001F0F7B /* Info.plist */,
+				5D56BD322CBA74D500210D54 /* swiftExample-Bridging-Header.h */,
 			);
 			path = swiftExample;
 			sourceTree = "<group>";
@@ -143,6 +164,9 @@
 			dependencies = (
 			);
 			name = swiftExample;
+			packageProductDependencies = (
+				5D055DBC2CA6B657001F0F7B /* SnapKit */,
+			);
 			productName = swiftExample;
 			productReference = 5D055D862CA6AC11001F0F7B /* swiftExample.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +219,7 @@
 				TargetAttributes = {
 					5D055D852CA6AC11001F0F7B = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					5D055D9B2CA6AC14001F0F7B = {
 						CreatedOnToolsVersion = 15.3;
@@ -215,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 5D055D7D2CA6AC11001F0F7B;
+			packageReferences = (
+				5D055DBB2CA6B657001F0F7B /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 5D055D872CA6AC11001F0F7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */,
 				5D055D8E2CA6AC11001F0F7B /* ViewController.swift in Sources */,
+				5D055DBF2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift in Sources */,
+				5D56BD352CBA74D600210D54 /* NetIPAddress.m in Sources */,
+				5D56BD372CBA75CA00210D54 /* IPAddressVC.swift in Sources */,
+				5D055DBA2CA6ADC6001F0F7B /* ExampleListViewController.swift in Sources */,
 				5D055D8A2CA6AC11001F0F7B /* AppDelegate.swift in Sources */,
 				5D055D8C2CA6AC11001F0F7B /* SceneDelegate.swift in Sources */,
 			);
@@ -440,16 +473,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T9N4NZWQ9C;
+				DEVELOPMENT_TEAM = Y4A3CFNL3H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = swiftExample/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Request Face ID Privacy";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +494,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.swiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftExample/swiftExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,16 +506,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T9N4NZWQ9C;
+				DEVELOPMENT_TEAM = Y4A3CFNL3H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = swiftExample/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Request Face ID Privacy";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +527,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.swiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftExample/swiftExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -607,6 +649,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D055DBB2CA6B657001F0F7B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 6.0.0;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D055DBC2CA6B657001F0F7B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D055DBB2CA6B657001F0F7B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D055D7E2CA6AC11001F0F7B /* Project object */;
 }

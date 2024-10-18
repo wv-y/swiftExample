@@ -22,6 +22,7 @@
 		5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */; };
 		5D56BD352CBA74D600210D54 /* NetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD342CBA74D600210D54 /* NetIPAddress.m */; };
 		5D56BD372CBA75CA00210D54 /* IPAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */; };
+		849854152CC136A10044782F /* FontTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849854142CC136A10044782F /* FontTestVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		5D56BD332CBA74D600210D54 /* NetIPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetIPAddress.h; sourceTree = "<group>"; };
 		5D56BD342CBA74D600210D54 /* NetIPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetIPAddress.m; sourceTree = "<group>"; };
 		5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddressVC.swift; sourceTree = "<group>"; };
+		849854142CC136A10044782F /* FontTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				5D055DBE2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift */,
 				5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */,
 				5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */,
+				849854142CC136A10044782F /* FontTestVC.swift */,
 				5D055D8D2CA6AC11001F0F7B /* ViewController.swift */,
 				5D56BD332CBA74D600210D54 /* NetIPAddress.h */,
 				5D56BD342CBA74D600210D54 /* NetIPAddress.m */,
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849854152CC136A10044782F /* FontTestVC.swift in Sources */,
 				5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */,
 				5D055D8E2CA6AC11001F0F7B /* ViewController.swift in Sources */,
 				5D055DBF2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift in Sources */,

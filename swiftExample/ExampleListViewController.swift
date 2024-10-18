@@ -24,6 +24,7 @@ class ExampleListViewController: UITableViewController {
         
         dataSource.append("faceID")
         dataSource.append("IPAddress")
+        dataSource.append("FontList")
         
         // 设置导航栏透明
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -49,6 +50,8 @@ class ExampleListViewController: UITableViewController {
             nextVC = FaceIDTestVC()
         } else if (indexPath.row == 1) {
             nextVC = IPAddressVC();
+        } else if (indexPath.row == 2) {
+            nextVC = FontTestVC()
         }
         if (nextVC != nil) {
             nextVC?.navigationItem.title = name;

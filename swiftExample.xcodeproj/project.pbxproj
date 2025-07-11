@@ -20,9 +20,24 @@
 		5D055DBD2CA6B657001F0F7B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D055DBC2CA6B657001F0F7B /* SnapKit */; };
 		5D055DBF2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DBE2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift */; };
 		5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */; };
+		5D0B2E402E179548007CDE46 /* BlueToothVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B2E3F2E179548007CDE46 /* BlueToothVC.swift */; };
+		5D0B2E422E17BA98007CDE46 /* BlueToothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B2E412E17BA98007CDE46 /* BlueToothManager.swift */; };
+		5D3F07412E02AA2600A6BB22 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F07402E02AA2600A6BB22 /* NewFeatureViewController.swift */; };
+		5D50B7AD2E05161D00D7A4B0 /* PencilKitTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50B7AC2E05161D00D7A4B0 /* PencilKitTestVC.swift */; };
+		5D50B7AF2E05195D00D7A4B0 /* TextViewFormattingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50B7AE2E05195D00D7A4B0 /* TextViewFormattingVC.swift */; };
+		5D50B7B22E053FAA00D7A4B0 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5D50B7B12E053FAA00D7A4B0 /* SVProgressHUD */; };
+		5D50B7B42E05437B00D7A4B0 /* AuthorityTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50B7B32E05437B00D7A4B0 /* AuthorityTool.swift */; };
 		5D56BD352CBA74D600210D54 /* NetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD342CBA74D600210D54 /* NetIPAddress.m */; };
 		5D56BD372CBA75CA00210D54 /* IPAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */; };
 		849854152CC136A10044782F /* FontTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849854142CC136A10044782F /* FontTestVC.swift */; };
+		5DC114872DDF3F37008A7949 /* AnimationTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC114862DDF3F37008A7949 /* AnimationTestVC.swift */; };
+		5DC1148A2DDF4924008A7949 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC114892DDF4924008A7949 /* JGProgressHUD */; };
+		5DC1148D2DDF4A56008A7949 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC1148C2DDF4A56008A7949 /* Toast */; };
+		5DC114902DDF4C47008A7949 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC1148F2DDF4C47008A7949 /* ProgressHUD */; };
+		5DC114922DE02786008A7949 /* RedpacketRainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC114912DE02786008A7949 /* RedpacketRainVC.swift */; };
+		5DC114952DE02BC6008A7949 /* ImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC114942DE02BC6008A7949 /* ImageTool.swift */; };
+		5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC3C2E72DE9B05D0078560F /* RainVC.swift */; };
+		5DCE1FE42DDDD6DF00F59E60 /* SpriteKitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +74,23 @@
 		5D055DB92CA6ADC6001F0F7B /* ExampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
 		5D055DBE2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTileTableViewCell.swift; sourceTree = "<group>"; };
 		5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDTestVC.swift; sourceTree = "<group>"; };
+		5D0B2E3F2E179548007CDE46 /* BlueToothVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothVC.swift; sourceTree = "<group>"; };
+		5D0B2E412E17BA98007CDE46 /* BlueToothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothManager.swift; sourceTree = "<group>"; };
+		5D3F07402E02AA2600A6BB22 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
+		5D50B7AC2E05161D00D7A4B0 /* PencilKitTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitTestVC.swift; sourceTree = "<group>"; };
+		5D50B7AE2E05195D00D7A4B0 /* TextViewFormattingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFormattingVC.swift; sourceTree = "<group>"; };
+		5D50B7B32E05437B00D7A4B0 /* AuthorityTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityTool.swift; sourceTree = "<group>"; };
 		5D56BD322CBA74D500210D54 /* swiftExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		5D56BD332CBA74D600210D54 /* NetIPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetIPAddress.h; sourceTree = "<group>"; };
 		5D56BD342CBA74D600210D54 /* NetIPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetIPAddress.m; sourceTree = "<group>"; };
 		5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddressVC.swift; sourceTree = "<group>"; };
 		849854142CC136A10044782F /* FontTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestVC.swift; sourceTree = "<group>"; };
+		5DC114862DDF3F37008A7949 /* AnimationTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestVC.swift; sourceTree = "<group>"; };
+		5DC114912DE02786008A7949 /* RedpacketRainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedpacketRainVC.swift; sourceTree = "<group>"; };
+		5DC114942DE02BC6008A7949 /* ImageTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTool.swift; sourceTree = "<group>"; };
+		5DC3C2E72DE9B05D0078560F /* RainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainVC.swift; sourceTree = "<group>"; };
+		5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitExample.swift; sourceTree = "<group>"; };
+		5DEFADC82D3A4EDF00008919 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC1148D2DDF4A56008A7949 /* Toast in Frameworks */,
+				5D50B7B22E053FAA00D7A4B0 /* SVProgressHUD in Frameworks */,
+				5DC114902DDF4C47008A7949 /* ProgressHUD in Frameworks */,
+				5DC1148A2DDF4924008A7949 /* JGProgressHUD in Frameworks */,
 				5D055DBD2CA6B657001F0F7B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +146,10 @@
 		5D055D882CA6AC11001F0F7B /* swiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				5D0B2E3E2E179522007CDE46 /* BlueTooth */,
+				5D3F073F2E02A9F600A6BB22 /* NewFeatures */,
+				5DC114932DE02BB3008A7949 /* Tools */,
+				5DC114832DDF3EE9008A7949 /* Animation */,
 				5D055D892CA6AC11001F0F7B /* AppDelegate.swift */,
 				5D055D8B2CA6AC11001F0F7B /* SceneDelegate.swift */,
 				5D055DB92CA6ADC6001F0F7B /* ExampleListViewController.swift */,
@@ -122,6 +157,8 @@
 				5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */,
 				5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */,
 				849854142CC136A10044782F /* FontTestVC.swift */,
+				5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */,
+				5DEFADC82D3A4EDF00008919 /* MyPlayground.playground */,
 				5D055D8D2CA6AC11001F0F7B /* ViewController.swift */,
 				5D56BD332CBA74D600210D54 /* NetIPAddress.h */,
 				5D56BD342CBA74D600210D54 /* NetIPAddress.m */,
@@ -151,6 +188,44 @@
 			path = swiftExampleUITests;
 			sourceTree = "<group>";
 		};
+		5D0B2E3E2E179522007CDE46 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				5D0B2E3F2E179548007CDE46 /* BlueToothVC.swift */,
+				5D0B2E412E17BA98007CDE46 /* BlueToothManager.swift */,
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		5D3F073F2E02A9F600A6BB22 /* NewFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				5D3F07402E02AA2600A6BB22 /* NewFeatureViewController.swift */,
+				5D50B7AC2E05161D00D7A4B0 /* PencilKitTestVC.swift */,
+				5D50B7AE2E05195D00D7A4B0 /* TextViewFormattingVC.swift */,
+			);
+			path = NewFeatures;
+			sourceTree = "<group>";
+		};
+		5DC114832DDF3EE9008A7949 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5DC114862DDF3F37008A7949 /* AnimationTestVC.swift */,
+				5DC114912DE02786008A7949 /* RedpacketRainVC.swift */,
+				5DC3C2E72DE9B05D0078560F /* RainVC.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		5DC114932DE02BB3008A7949 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5DC114942DE02BC6008A7949 /* ImageTool.swift */,
+				5D50B7B32E05437B00D7A4B0 /* AuthorityTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +244,10 @@
 			name = swiftExample;
 			packageProductDependencies = (
 				5D055DBC2CA6B657001F0F7B /* SnapKit */,
+				5DC114892DDF4924008A7949 /* JGProgressHUD */,
+				5DC1148C2DDF4A56008A7949 /* Toast */,
+				5DC1148F2DDF4C47008A7949 /* ProgressHUD */,
+				5D50B7B12E053FAA00D7A4B0 /* SVProgressHUD */,
 			);
 			productName = swiftExample;
 			productReference = 5D055D862CA6AC11001F0F7B /* swiftExample.app */;
@@ -245,6 +324,10 @@
 			mainGroup = 5D055D7D2CA6AC11001F0F7B;
 			packageReferences = (
 				5D055DBB2CA6B657001F0F7B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				5DC114882DDF4924008A7949 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				5DC1148B2DDF4A56008A7949 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				5DC1148E2DDF4C47008A7949 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				5D50B7B02E053FA900D7A4B0 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
 			);
 			productRefGroup = 5D055D872CA6AC11001F0F7B /* Products */;
 			projectDirPath = "";
@@ -290,14 +373,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				849854152CC136A10044782F /* FontTestVC.swift in Sources */,
+				5D50B7AD2E05161D00D7A4B0 /* PencilKitTestVC.swift in Sources */,
 				5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */,
+				5D50B7B42E05437B00D7A4B0 /* AuthorityTool.swift in Sources */,
+				5DC114872DDF3F37008A7949 /* AnimationTestVC.swift in Sources */,
 				5D055D8E2CA6AC11001F0F7B /* ViewController.swift in Sources */,
 				5D055DBF2CA6BC32001F0F7B /* ExampleTileTableViewCell.swift in Sources */,
 				5D56BD352CBA74D600210D54 /* NetIPAddress.m in Sources */,
 				5D56BD372CBA75CA00210D54 /* IPAddressVC.swift in Sources */,
+				5D3F07412E02AA2600A6BB22 /* NewFeatureViewController.swift in Sources */,
 				5D055DBA2CA6ADC6001F0F7B /* ExampleListViewController.swift in Sources */,
+				5D50B7AF2E05195D00D7A4B0 /* TextViewFormattingVC.swift in Sources */,
+				5D0B2E402E179548007CDE46 /* BlueToothVC.swift in Sources */,
 				5D055D8A2CA6AC11001F0F7B /* AppDelegate.swift in Sources */,
+				5D0B2E422E17BA98007CDE46 /* BlueToothManager.swift in Sources */,
+				5DCE1FE42DDDD6DF00F59E60 /* SpriteKitExample.swift in Sources */,
+				5DC114922DE02786008A7949 /* RedpacketRainVC.swift in Sources */,
+				5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */,
 				5D055D8C2CA6AC11001F0F7B /* SceneDelegate.swift in Sources */,
+				5DC114952DE02BC6008A7949 /* ImageTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,12 +578,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = swiftExample/Info.plist;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Request Face ID Privacy";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "请求使用相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,12 +612,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = swiftExample/Info.plist;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Request Face ID Privacy";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "请求使用相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +642,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9N4NZWQ9C;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.swiftExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,7 +662,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9N4NZWQ9C;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.swiftExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -585,6 +681,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9N4NZWQ9C;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.swiftExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -603,6 +700,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9N4NZWQ9C;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.swiftExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -664,6 +762,38 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		5D50B7B02E053FA900D7A4B0 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5DC114882DDF4924008A7949 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		5DC1148B2DDF4A56008A7949 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		5DC1148E2DDF4C47008A7949 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -671,6 +801,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5D055DBB2CA6B657001F0F7B /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		5D50B7B12E053FAA00D7A4B0 /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D50B7B02E053FA900D7A4B0 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+		5DC114892DDF4924008A7949 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DC114882DDF4924008A7949 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		5DC1148C2DDF4A56008A7949 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DC1148B2DDF4A56008A7949 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		5DC1148F2DDF4C47008A7949 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DC1148E2DDF4C47008A7949 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

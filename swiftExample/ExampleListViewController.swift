@@ -10,9 +10,19 @@ import SnapKit
 
 let cell_id: String = "cell_id";
 
+enum ExampleVcName: String {
+    case faceID = "faceID"
+    case ipAddress = "IPAddress"
+    case fontList = "FontList"
+    case spriteKitEx = "SpriteKitEx"
+    case animation = "Animation"
+    case UIKitAPIFeature = "UIKitNewFeature"
+    case blueTooth = "BlueTooth"
+}
+
 class ExampleListViewController: UITableViewController {
     
-    var dataSource: [String] = []
+    var dataSource: [ExampleVcName] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +32,13 @@ class ExampleListViewController: UITableViewController {
         //tableView.backgroundColor = UIColor(white: 1, alpha: 1)
         tableView.register(ExampleTileTableViewCell.self, forCellReuseIdentifier: cell_id)
         
-        dataSource.append("faceID")
-        dataSource.append("IPAddress")
-        dataSource.append("FontList")
+        dataSource.append(.faceID)
+        dataSource.append(.ipAddress)
+        dataSource.append(.fontList)
+        dataSource.append(.spriteKitEx)
+        dataSource.append(.animation)
+        dataSource.append(.UIKitAPIFeature)
+        dataSource.append(.blueTooth)
         
         // 设置导航栏透明
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -38,7 +52,7 @@ class ExampleListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cell_id, for: indexPath) as! ExampleTileTableViewCell
-        cell.myLabel.text = dataSource[indexPath.row];
+        cell.myLabel.text = dataSource[indexPath.row].rawValue;
         //cell.contentView.backgroundColor = UIColor.white
         return cell
     }
@@ -46,15 +60,25 @@ class ExampleListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let name = dataSource[indexPath.row];
         var nextVC:UIViewController? = nil
-        if (indexPath.row == 0) {
+        
+        switch name {
+        case .faceID:
             nextVC = FaceIDTestVC()
-        } else if (indexPath.row == 1) {
-            nextVC = IPAddressVC();
-        } else if (indexPath.row == 2) {
+        case .ipAddress:
+            nextVC = IPAddressVC()
+        case .fontList:
             nextVC = FontTestVC()
+        case .spriteKitEx:
+            nextVC = SpriteKitExampleVC()
+        case .animation:
+            nextVC = AnimationTestVC()
+        case .UIKitAPIFeature:
+            nextVC = NewFeatureViewController()
+        case .blueTooth:
+            nextVC = BlueToothVC()
         }
         if (nextVC != nil) {
-            nextVC?.navigationItem.title = name;
+            nextVC?.navigationItem.title = name.rawValue;
             self.navigationController?.pushViewController(nextVC!, animated: true)
         }
     }

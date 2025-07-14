@@ -227,6 +227,11 @@ class BlueToothManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate
         self.centralManager?.scanForPeripherals(withServices: nil, options: dict)
     }
     
+    /// 停止扫描
+    func stopScanBlueTooth() {
+        self.centralManager?.stopScan()
+    }
+    
     /// 链接到指定的蓝牙外设
     func connectBlueToothDevice(_ msg : BlueToothDeviceMessage) {
         // 如果已经连接了设备，先断开连接

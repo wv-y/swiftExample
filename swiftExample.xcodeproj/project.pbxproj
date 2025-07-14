@@ -29,15 +29,16 @@
 		5D50B7B42E05437B00D7A4B0 /* AuthorityTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50B7B32E05437B00D7A4B0 /* AuthorityTool.swift */; };
 		5D56BD352CBA74D600210D54 /* NetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD342CBA74D600210D54 /* NetIPAddress.m */; };
 		5D56BD372CBA75CA00210D54 /* IPAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */; };
-		849854152CC136A10044782F /* FontTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849854142CC136A10044782F /* FontTestVC.swift */; };
 		5DC114872DDF3F37008A7949 /* AnimationTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC114862DDF3F37008A7949 /* AnimationTestVC.swift */; };
 		5DC1148A2DDF4924008A7949 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC114892DDF4924008A7949 /* JGProgressHUD */; };
 		5DC1148D2DDF4A56008A7949 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC1148C2DDF4A56008A7949 /* Toast */; };
 		5DC114902DDF4C47008A7949 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC1148F2DDF4C47008A7949 /* ProgressHUD */; };
 		5DC114922DE02786008A7949 /* RedpacketRainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC114912DE02786008A7949 /* RedpacketRainVC.swift */; };
 		5DC114952DE02BC6008A7949 /* ImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC114942DE02BC6008A7949 /* ImageTool.swift */; };
+		5DC2DA3A2E2114CE00619A1A /* DynamicDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2DA392E2114CE00619A1A /* DynamicDemoVC.swift */; };
 		5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC3C2E72DE9B05D0078560F /* RainVC.swift */; };
 		5DCE1FE42DDDD6DF00F59E60 /* SpriteKitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */; };
+		849854152CC136A10044782F /* FontTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849854142CC136A10044782F /* FontTestVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,13 +85,14 @@
 		5D56BD332CBA74D600210D54 /* NetIPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetIPAddress.h; sourceTree = "<group>"; };
 		5D56BD342CBA74D600210D54 /* NetIPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetIPAddress.m; sourceTree = "<group>"; };
 		5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddressVC.swift; sourceTree = "<group>"; };
-		849854142CC136A10044782F /* FontTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestVC.swift; sourceTree = "<group>"; };
 		5DC114862DDF3F37008A7949 /* AnimationTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestVC.swift; sourceTree = "<group>"; };
 		5DC114912DE02786008A7949 /* RedpacketRainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedpacketRainVC.swift; sourceTree = "<group>"; };
 		5DC114942DE02BC6008A7949 /* ImageTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTool.swift; sourceTree = "<group>"; };
+		5DC2DA392E2114CE00619A1A /* DynamicDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDemoVC.swift; sourceTree = "<group>"; };
 		5DC3C2E72DE9B05D0078560F /* RainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainVC.swift; sourceTree = "<group>"; };
 		5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitExample.swift; sourceTree = "<group>"; };
 		5DEFADC82D3A4EDF00008919 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		849854142CC136A10044782F /* FontTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		5D055D882CA6AC11001F0F7B /* swiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				5DC2DA382E2114AB00619A1A /* DynamicDemo */,
 				5D0B2E3E2E179522007CDE46 /* BlueTooth */,
 				5D3F073F2E02A9F600A6BB22 /* NewFeatures */,
 				5DC114932DE02BB3008A7949 /* Tools */,
@@ -224,6 +227,14 @@
 				5D50B7B32E05437B00D7A4B0 /* AuthorityTool.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		5DC2DA382E2114AB00619A1A /* DynamicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5DC2DA392E2114CE00619A1A /* DynamicDemoVC.swift */,
+			);
+			path = DynamicDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +403,7 @@
 				5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */,
 				5D055D8C2CA6AC11001F0F7B /* SceneDelegate.swift in Sources */,
 				5DC114952DE02BC6008A7949 /* ImageTool.swift in Sources */,
+				5DC2DA3A2E2114CE00619A1A /* DynamicDemoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

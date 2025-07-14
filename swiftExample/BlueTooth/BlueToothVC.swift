@@ -52,6 +52,11 @@ class BlueToothVC: UIViewController, BlueToothCentralManagerDelegate, UITableVie
         }
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        BlueToothManager.shared.stopScanBlueTooth()
+    }
+    
     @objc func clickCenterButton() {
         BlueToothManager.shared.scanBlueToothDevices()
     }

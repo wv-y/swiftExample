@@ -10,7 +10,7 @@ import SnapKit
 
 let cell_id: String = "cell_id";
 
-enum ExampleVcName: String {
+enum ExampleVcName: String, CaseIterable {
     case faceID = "faceID"
     case ipAddress = "IPAddress"
     case fontList = "FontList"
@@ -18,6 +18,7 @@ enum ExampleVcName: String {
     case animation = "Animation"
     case UIKitAPIFeature = "UIKitNewFeature"
     case blueTooth = "BlueTooth"
+    case DynamicDemo = "DynamicDemo"
 }
 
 class ExampleListViewController: UITableViewController {
@@ -31,14 +32,7 @@ class ExampleListViewController: UITableViewController {
         
         //tableView.backgroundColor = UIColor(white: 1, alpha: 1)
         tableView.register(ExampleTileTableViewCell.self, forCellReuseIdentifier: cell_id)
-        
-        dataSource.append(.faceID)
-        dataSource.append(.ipAddress)
-        dataSource.append(.fontList)
-        dataSource.append(.spriteKitEx)
-        dataSource.append(.animation)
-        dataSource.append(.UIKitAPIFeature)
-        dataSource.append(.blueTooth)
+        dataSource = ExampleVcName.allCases
         
         // 设置导航栏透明
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -76,6 +70,8 @@ class ExampleListViewController: UITableViewController {
             nextVC = NewFeatureViewController()
         case .blueTooth:
             nextVC = BlueToothVC()
+        case .DynamicDemo:
+            nextVC = DynamicDemoViewController()
         }
         if (nextVC != nil) {
             nextVC?.navigationItem.title = name.rawValue;

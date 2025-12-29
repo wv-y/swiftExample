@@ -20,6 +20,7 @@ enum ExampleVcName: String, CaseIterable {
     case blueTooth = "BlueTooth"
     case DynamicDemo = "DynamicDemo"
     case CropImage = "CropImage"
+    case Vibrate = "Vibrate"
 }
 
 class ExampleListViewController: UITableViewController {
@@ -75,6 +76,8 @@ class ExampleListViewController: UITableViewController {
             nextVC = DynamicDemoViewController()
         case .CropImage:
             nextVC = CropImageVC()
+        case .Vibrate:
+            nextVC = VibrateExampleVC()
         }
         if (nextVC != nil) {
             nextVC?.navigationItem.title = name.rawValue;

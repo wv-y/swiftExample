@@ -22,6 +22,7 @@
 		5D055DC12CA6CF13001F0F7B /* FaceIDTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */; };
 		5D0B2E402E179548007CDE46 /* BlueToothVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B2E3F2E179548007CDE46 /* BlueToothVC.swift */; };
 		5D0B2E422E17BA98007CDE46 /* BlueToothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B2E412E17BA98007CDE46 /* BlueToothManager.swift */; };
+		5D33583C2F023B850042868B /* VibrateExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33583B2F023B850042868B /* VibrateExampleVC.swift */; };
 		5D3F07412E02AA2600A6BB22 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F07402E02AA2600A6BB22 /* NewFeatureViewController.swift */; };
 		5D50B7AD2E05161D00D7A4B0 /* PencilKitTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50B7AC2E05161D00D7A4B0 /* PencilKitTestVC.swift */; };
 		5D50B7AF2E05195D00D7A4B0 /* TextViewFormattingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50B7AE2E05195D00D7A4B0 /* TextViewFormattingVC.swift */; };
@@ -80,6 +81,7 @@
 		5D055DC02CA6CF13001F0F7B /* FaceIDTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDTestVC.swift; sourceTree = "<group>"; };
 		5D0B2E3F2E179548007CDE46 /* BlueToothVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothVC.swift; sourceTree = "<group>"; };
 		5D0B2E412E17BA98007CDE46 /* BlueToothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothManager.swift; sourceTree = "<group>"; };
+		5D33583B2F023B850042868B /* VibrateExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrateExampleVC.swift; sourceTree = "<group>"; };
 		5D3F07402E02AA2600A6BB22 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
 		5D50B7AC2E05161D00D7A4B0 /* PencilKitTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitTestVC.swift; sourceTree = "<group>"; };
 		5D50B7AE2E05195D00D7A4B0 /* TextViewFormattingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFormattingVC.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				5D56BD362CBA75CA00210D54 /* IPAddressVC.swift */,
 				849854142CC136A10044782F /* FontTestVC.swift */,
 				5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */,
+				5D33583B2F023B850042868B /* VibrateExampleVC.swift */,
 				5DEFADC82D3A4EDF00008919 /* MyPlayground.playground */,
 				5D055D8D2CA6AC11001F0F7B /* ViewController.swift */,
 				5D56BD332CBA74D600210D54 /* NetIPAddress.h */,
@@ -421,6 +424,7 @@
 				5DF8625F2E30C44900736CA4 /* CropImageVC.swift in Sources */,
 				5DC114922DE02786008A7949 /* RedpacketRainVC.swift in Sources */,
 				5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */,
+				5D33583C2F023B850042868B /* VibrateExampleVC.swift in Sources */,
 				5D055D8C2CA6AC11001F0F7B /* SceneDelegate.swift in Sources */,
 				5DC114952DE02BC6008A7949 /* ImageTool.swift in Sources */,
 				5DC2DA3A2E2114CE00619A1A /* DynamicDemoVC.swift in Sources */,

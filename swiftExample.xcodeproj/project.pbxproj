@@ -38,6 +38,9 @@
 		5DC2DA3A2E2114CE00619A1A /* DynamicDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2DA392E2114CE00619A1A /* DynamicDemoVC.swift */; };
 		5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC3C2E72DE9B05D0078560F /* RainVC.swift */; };
 		5DCE1FE42DDDD6DF00F59E60 /* SpriteKitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */; };
+		5DF8625F2E30C44900736CA4 /* CropImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8625E2E30C44900736CA4 /* CropImageVC.swift */; };
+		5DF862622E30CD3700736CA4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5DF862612E30CD3700736CA4 /* SDWebImage */; };
+		5DF862652E30E77200736CA4 /* JPImageresizerView in Frameworks */ = {isa = PBXBuildFile; productRef = 5DF862642E30E77200736CA4 /* JPImageresizerView */; };
 		849854152CC136A10044782F /* FontTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849854142CC136A10044782F /* FontTestVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +95,7 @@
 		5DC3C2E72DE9B05D0078560F /* RainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainVC.swift; sourceTree = "<group>"; };
 		5DCE1FE32DDDD6DF00F59E60 /* SpriteKitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitExample.swift; sourceTree = "<group>"; };
 		5DEFADC82D3A4EDF00008919 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5DF8625E2E30C44900736CA4 /* CropImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImageVC.swift; sourceTree = "<group>"; };
 		849854142CC136A10044782F /* FontTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF862652E30E77200736CA4 /* JPImageresizerView in Frameworks */,
+				5DF862622E30CD3700736CA4 /* SDWebImage in Frameworks */,
 				5DC1148D2DDF4A56008A7949 /* Toast in Frameworks */,
 				5D50B7B22E053FAA00D7A4B0 /* SVProgressHUD in Frameworks */,
 				5DC114902DDF4C47008A7949 /* ProgressHUD in Frameworks */,
@@ -148,6 +154,7 @@
 		5D055D882CA6AC11001F0F7B /* swiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				5DF8625D2E30C2CD00736CA4 /* ImageEdit */,
 				5DC2DA382E2114AB00619A1A /* DynamicDemo */,
 				5D0B2E3E2E179522007CDE46 /* BlueTooth */,
 				5D3F073F2E02A9F600A6BB22 /* NewFeatures */,
@@ -237,6 +244,14 @@
 			path = DynamicDemo;
 			sourceTree = "<group>";
 		};
+		5DF8625D2E30C2CD00736CA4 /* ImageEdit */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8625E2E30C44900736CA4 /* CropImageVC.swift */,
+			);
+			path = ImageEdit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,6 +274,8 @@
 				5DC1148C2DDF4A56008A7949 /* Toast */,
 				5DC1148F2DDF4C47008A7949 /* ProgressHUD */,
 				5D50B7B12E053FAA00D7A4B0 /* SVProgressHUD */,
+				5DF862612E30CD3700736CA4 /* SDWebImage */,
+				5DF862642E30E77200736CA4 /* JPImageresizerView */,
 			);
 			productName = swiftExample;
 			productReference = 5D055D862CA6AC11001F0F7B /* swiftExample.app */;
@@ -339,6 +356,8 @@
 				5DC1148B2DDF4A56008A7949 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 				5DC1148E2DDF4C47008A7949 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
 				5D50B7B02E053FA900D7A4B0 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+				5DF862602E30CD3700736CA4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				5DF862632E30E77200736CA4 /* XCRemoteSwiftPackageReference "JPImageresizerView" */,
 			);
 			productRefGroup = 5D055D872CA6AC11001F0F7B /* Products */;
 			projectDirPath = "";
@@ -399,6 +418,7 @@
 				5D055D8A2CA6AC11001F0F7B /* AppDelegate.swift in Sources */,
 				5D0B2E422E17BA98007CDE46 /* BlueToothManager.swift in Sources */,
 				5DCE1FE42DDDD6DF00F59E60 /* SpriteKitExample.swift in Sources */,
+				5DF8625F2E30C44900736CA4 /* CropImageVC.swift in Sources */,
 				5DC114922DE02786008A7949 /* RedpacketRainVC.swift in Sources */,
 				5DC3C2E82DE9B05D0078560F /* RainVC.swift in Sources */,
 				5D055D8C2CA6AC11001F0F7B /* SceneDelegate.swift in Sources */,
@@ -806,6 +826,22 @@
 				minimumVersion = 14.1.3;
 			};
 		};
+		5DF862602E30CD3700736CA4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = exactVersion;
+				version = 5.21.1;
+			};
+		};
+		5DF862632E30E77200736CA4 /* XCRemoteSwiftPackageReference "JPImageresizerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rogue24/JPImageresizerView";
+			requirement = {
+				kind = exactVersion;
+				version = 1.13.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -833,6 +869,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5DC1148E2DDF4C47008A7949 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
 			productName = ProgressHUD;
+		};
+		5DF862612E30CD3700736CA4 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DF862602E30CD3700736CA4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5DF862642E30E77200736CA4 /* JPImageresizerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DF862632E30E77200736CA4 /* XCRemoteSwiftPackageReference "JPImageresizerView" */;
+			productName = JPImageresizerView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
